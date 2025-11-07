@@ -1,8 +1,3 @@
-"""
-Document to Speech AI System with RAG and Interactive Q&A
-Backend API using Flask with AI Agents
-"""
-
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import os
@@ -40,9 +35,6 @@ os.makedirs(AUDIO_FOLDER, exist_ok=True)
 
 app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50MB max file size
 
-# ============================================================================
-# AI AGENTS SYSTEM
-# ============================================================================
 
 class DocumentProcessingAgent:
     """Agent responsible for extracting text from various document types"""
