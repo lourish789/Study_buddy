@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "ai-study-assistant",
+  "name": "study_buddy",
   "builds": [
     {
       "src": "index.html",
