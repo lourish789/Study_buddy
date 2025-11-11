@@ -1033,7 +1033,7 @@ def index():
 
 if __name__ == '__main__':
     print("=" * 70)
-    print("🎓 AI STUDY ASSISTANT - Enhanced Version 2.0")
+    print("Study_Buddy - Enhanced Version 2.0")
     print("=" * 70)
     print("\n🤖 Active AI Agents:")
     print("  1. DocumentProcessingAgent - Multi-format extraction")
