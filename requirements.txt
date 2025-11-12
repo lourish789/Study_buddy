@@ -1,13 +1,7 @@
 Flask
 flask-cors
-gunicorn
 PyPDF2
 python-docx
-pytesseract
 Pillow
-sentence-transformers
-numpy
-scikit-learn
 gTTS
-torch
-transformers
+gunicorn
