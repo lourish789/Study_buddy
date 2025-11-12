@@ -26,6 +26,7 @@ from gtts import gTTS
 # Environment setup
 app = Flask(__name__)
 
+
 # CORS configuration for Vercel frontend
 CORS(app, resources={
     r"/api/*": {
